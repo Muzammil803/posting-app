@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #4295f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-blend-mode: hue;
+    
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+
+#main,.div1{
+
+    background-color: white;
+    height: auto;
+    width: 500px;
+margin: 50px auto ;
+border-radius: 20px;
+overflow: hidden;
+}
+#post{
+    width:500px ;
+    height: auto;
+}
+
+#top{
+    border-bottom: 1px solid rgb(204, 197, 197);
+    width: 100%;
+    height: 50px;
+}
+#top>h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-stretch: narrower;
+    margin-top:10px ;
+    margin-left: 20px;
+}
+
+
+#img{
+    display: flex;
+    padding-left: 10px ;
+margin-bottom: 10px;
+    margin-top: 4px;
+}
+#img>p{
+    margin-top: 7px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: large;
+}
+
+#img>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+#text{
+    width: 97%;
+height:270px;
+/* background-color:rgb(255, 255, 255); */
+text-decoration: none;
+border: none;
+font-size: 27px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 10px;
+
+}
+#text:focus{
+    border: none;
+outline: none;
+}
+
+#backgrounds{
+    width: 100%;
+    height: 30px;
+    display: flex;
+
+}
+#back1{
+    width: 20px;
+    height: 20px;
+    margin: 4px ;
+}
+#back5{
+    width: 19px;
+    height: 19px;
+    border: 1px solid rgb(82, 55, 55);
+    margin: 4px ;
+}
+#back2{
+    width: 20px;
+    height: 20px;
+    margin: 4px ;
+}
+#back3{
+    width: 20px;
+    height: 20px;
+    margin: 4px ;
+}
+#back4{
+    width: 20px;
+    height: 20px;
+    margin: 4px ; 
+}
+#btn{
+    width: 100%;
+    background-color: rgb(47, 47, 245);
+    height: 30px;
+    font-size: larger;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(67, 67, 255);
+}
+#main-post{
+    height: auto;
+    width: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+    
+}
+
+/* 
+.bottom{
+
+    margin-top: 100px;
+    position: absolute;
+    position: relative;
+    bottom: 0;
+} */
